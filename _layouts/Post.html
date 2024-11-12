@@ -51,7 +51,6 @@
     {%- endif -%}
 
     <title>{{page.title}} - {{site.heading}}</title>
-    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
     <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
@@ -82,7 +81,7 @@
                     {%- else -%}
                             <!--- Show Feed Part -->
                 <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                            <h5 class="meta-title"><a href="/">← Home</a></h5>
+                            <h5 class="meta-title"><a href="{{'/posts' | relative_url}}">← Home</a></h5>
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
                             {%- include Feed.html -%}
@@ -94,7 +93,7 @@
             <!--- Notes Feed Layout-->
             {%- if page.feedformat -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <h5 class="meta-title"><a href="{{'/posts' | relative_url}}">← Home</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {%- include Feed.html -%}
@@ -132,7 +131,6 @@
             <!--- Post Feed Layout-->
             {%- if page.permalink == "/posts" -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
                 <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {% for post in site.posts %}
