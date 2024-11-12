@@ -2,5 +2,7 @@ _site
 .jekyll-cache
 pages/.DS_Store
 pages/tags.md
-_notes/.obsidian
-_notes/Public/.obsidian
+_notes/obsidian/*
+# Unignore the drafts folder
+!_notes/obsidian/garden/
+
