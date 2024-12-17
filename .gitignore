@@ -5,4 +5,5 @@ pages/tags.md
 _notes/obsidian/*
 # Unignore the drafts folder
 !_notes/obsidian/garden/
+*.swp
 
