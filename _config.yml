@@ -111,6 +111,8 @@ exclude:
   - _notes/200 Private
   - _notes/300 Templates
   - _notes/obsidian/templates
+  - _notes/obsidian/PARA
+
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
