@@ -2,7 +2,7 @@
 type: note
 stage: seed
 created: 2025-01-18
-title: Обзор книги 'Building a Second Brain' Тиаго Форте
+title: Building a Second Brain
 feed: show
 date: 2025-01-18
 permalink: obzor-knigi-building-a-second-brain-tiago-forte
