@@ -1,6 +1,10 @@
 ---
-title: Building a Second Brain
+type: note
+stage: seed
+created: 2024-12-26
+title: Мой обзор
 feed: show
-date: 2025-01-18
+date: 2024-12-26
+permalink: build-a-second-brain
 ---
-Hi!
+Да это мой обзор
