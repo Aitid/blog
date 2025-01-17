@@ -5,8 +5,7 @@ created: 2025-01-18
 title: Обзор книги 'Building a Second Brain' Тиаго Форте
 feed: show
 date: 2025-01-18
-permalink: /obzor-knigi-building-a-second-brain-tiago-forte
-format: list
+permalink: obzor-knigi-building-a-second-brain-tiago-forte
 ---
 Много раз встречал мнение, что вести заметки, полезная привычка. Получение возможных выгод меня вдохновило начать вести заметки. Инструментво для этого много. Я остановился на Obsidian. Почитал/посмотрел опыт использования этого приложения, примерно определил для себя, как буду организовывать и собирать информацию и стартанул.
 
